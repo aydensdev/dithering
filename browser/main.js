@@ -1,5 +1,5 @@
 const settings = {                 // OPTIONS:
-	image: "lenna.png",        // check ../media
+	image: "../sample.png",    // image file of choice
 	type: "diffusion",         // diffusion, ordererd
 	palette: "grayscale3",     // terminal, grayscale3, gameboy, bwrgbcmy
 	matrixSize: 4,             // 2, 3, 4
@@ -63,7 +63,7 @@ window.onload = () => {
 	}[settings.palette];
 
     const img = new Image();
-    img.src = '../media/' + settings.image;
+    img.src = settings.image;
 
     img.onload = () => {
 

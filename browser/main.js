@@ -1,5 +1,5 @@
 const settings = {                 // OPTIONS:
-	image: "cube.jpg",         // check ../media
+	image: "lenna.png",        // check ../media
 	type: "diffusion",         // diffusion, ordererd
 	palette: "grayscale3",     // terminal, grayscale3, gameboy, bwrgbcmy
 	matrixSize: 4,             // 2, 3, 4
